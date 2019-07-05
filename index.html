@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<!--
+	Ethereal by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DLive - Mobile Streaming - Onscreen Chat</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Wrapper -->
+					<div id="wrapper">
+
+						<!-- Panel (Banner) -->
+							<section class="panel banner right">
+								<div class="content color0 span-3-100">
+									<h1 class="major">DLive Mobile Streaming:
+									Monitoring Chat IRL</h1>
+									<p>This short guide will walk you through step-by-step to get yuo started using an on-screen chat in Streamlabs for mobile.</br>Scroll to continue...</p>
+									<ul class="actions">
+										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight medium right" id="first">
+								<div class="content">
+									<h2 class="major">First things first: TidyLabs</h2>
+									<p>If you've already grabbed your TidyLabs URL and configured the Chat Overlay options, you can <a href="#forth">Skip Ahead</a> to the next section!</br>Keep on scrollin'</p>
+									<ul class="actions">
+											<li><a href="#second" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="image filtered tinted" data-position="top left">
+									<img src="images/pic02.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+							<section class="panel color1" id="second">
+								<div class="intro joined">
+									<h2 class="major">Getting your TidyLabs URL</h2>
+									<p>We'll need a URL for the overlay widget, to obtain this, we'll navigate to <a href="https://tidylabs.stream">TidyLabs</a> and login with our Dlive account.</p>
+									<ul class="actions">
+											<li><a href="#third" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
+									</ul>
+								</div>
+								<div class="inner">
+									<p>Once signed in, head over to the <a href="https://cp.tidylabs.stream/gen_chat.asp">Chat Overlay</a></br>page and select the "Copy URL" button.</p>
+								</div>
+							</section>
+
+						<!-- Panel (Spotlight) -->
+							<section class="panel spotlight left" id="third">
+								<div class="content span-5">
+									<h2 class="major">Configuring Chat Overlay</h2>
+									<p>Great, we've got our chat overlay URL! Now it's time to configure how it looks and acts.</br>
+									First, we'll change the <i>"Remove chat messages after X Seconds"</i> option to <i>"Never"</i></br>
+									Next, let's be sure we've got a good strong <b>dark</b> background colour to make sure we can read our text:</p>
+									<ol>
+										<li>Change <i>"Show Message Background"</i> to <i>"Yes"</i></li>
+										<li>Set the <i>"Background Colour"</i> to something nice and dark, like black (#000000)</li>
+									</ol>
+									<p>Don't forget to hit Save!</p>
+									<ul class="actions"><li><a href="#forth" class="button primary color1 circle icon solid fa-angle-right">Next</a></li></ul>
+								</div>
+								<div class="image filtered tinted" data-position="top right">
+									<img src="images/pic03.jpg" alt="" />
+								</div>
+							</section>
+
+						<!-- Panel -->
+						<section class="panel spotlight left" id="forth">
+								<div class="intro span-5 color2">
+									<h2 class="major">Next up: Configuring StreamLabs</h2>
+									<p>Now that we have TidyLabs all set up how we want it and we've copied our Chat Overlay URL, We can start looking at StreamLabs and configuring it to allow us to see the chat as we stream.</p>
+									<ul class="actions"><li><a href="#fifth" class="button primary color1 circle icon solid fa-angle-right">Next</a></li></ul>
+								</div>
+							</section>
+
+						<!-- Panel -->
+						<section class="panel spotlight left" id="fifth">
+							<div class="intro span-5 color4">
+								<h2 class="major">Opening the Editor</h2>
+								<p>In the StreamLabs app, swipe from the left-hand side of the screen to reviel the menu. From here, select the "Editor" option.</p>
+								<img src="https://i.lkd70.io/ljhugi.png" style="padding-bottom: 10px;">
+								<ul class="actions"><li><a href="#sixth" class="button primary color1 circle icon solid fa-angle-right">Next</a></li></ul>
+							</div>
+						</section>
+
+						<!-- Panel -->
+						<section class="panel spotlight left" id="sixth">
+							<div class="intro span-5 color1">
+								<h2 class="major">Adding a widget</h2>
+								<p>Now click the icon in the top-right corner to open the widget panel</p>
+								<img src="https://i.lkd70.io/otbafj.png" style="padding-bottom: 10px;" height="90" width="90">
+								<p>From here, click the plus (+) icon to add a widget.<br />
+								Select "Add Widget", then "Custom URL", and finally we can paste in the URL we were given by TidyLabs</p>
+								<img src="https://i.lkd70.io/bzclr6.png" style="padding-bottom: 10px;">
+								<ul class="actions"><li><a href="#seventh" class="button primary color1 circle icon solid fa-angle-right">Next</a></li></ul>
+							</div>
+						</section>
+
+						<!-- Panel -->
+						<section class="panel banner left" id="seventh">
+							<div class="content color2">
+								<h2 class="major">Making the widget visible</h2>
+								<p>Great! Now that the widget is visible on our Editor, it's time to change the size, move it around, and most importantly: Make sure the stream can't see it but we can.<br />
+								To do this, we have a few simple steps to follow:</p>
+								<ol>
+									<li>Click the widget we added until three icons appear next to it.</li>
+									<li>Click the three dots icon and ensure the options at the bottom of the popup are set to <i>"Hidden on Stream"</i>> and <i>"Showing on Preview"</i>></li>
+								</ol>
+								<img src="https://i.lkd70.io/12htyz.png" style="padding-bottom: 10px;" width="400">
+							</div>
+						</section>
+
+						<!-- Panel -->
+							<section class="panel color4-alt">
+								<div class="intro color4">
+									<h2 class="major">We're all done!</h2>
+									<p>Whooop! At long last we've finished. If you ran in to any issues or have any suggestions, feel free to contact LKD70 on Discord, Twitter, or Telegram!</p>
+								</div>
+								<div class="inner columns divided">
+									<div class="span-1-4">
+										<ul class="contact-icons color1">
+											<li class="icon brands fa-twitter"><a href="https://twitter.com/dliveluke">@DliveLuke</a></li>
+											<li class="icon brands fa-telegram"><a href="https://t.me/LKD70">@LKD70</a></li>
+											<li class="icon brands fa-discord"><a href="https://invite.gg/dlivetvapi">#LKD70 (Luke)#7070</a></li>
+										</ul>
+									</div>
+								</div>
+							</section>
+
+
+						<!-- Copyright -->
+							<div class="copyright">&copy; LKD70. Design: <a href="https://html5up.net">HTML5 UP</a>.</div>
+
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
